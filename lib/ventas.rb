@@ -16,4 +16,9 @@ class Ventas
     def obtenerPrecioUnitarioItems()
         return precio_unitario
     end
+
+    def agregarPrecioUnitarioAItem(precio_a_asignar)
+        return self.precio_unitario = precio_a_asignar
+    end
+
 end
